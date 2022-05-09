@@ -308,6 +308,7 @@ export default function Home() {
         </button>
       );
     }
+    
 
     // If we are currently waiting for something, return a loading button
     if (loading) {
@@ -356,7 +357,7 @@ export default function Home() {
       );
     }
   };
-
+  
   return (
     <div>
       <Head>
